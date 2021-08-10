@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\INeedAHero4Ed.Core\INeedAHero4Ed.Core.csproj" />
+    </ItemGroup>
+
+</Project>
