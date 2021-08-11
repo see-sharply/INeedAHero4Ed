@@ -9,6 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Domain\Exceptions" />
       <Folder Include="Domain\Identity" />
     </ItemGroup>
 

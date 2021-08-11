@@ -6,6 +6,7 @@ namespace INeedAHero4Ed.Core.Domain.CharacterCard
 {
     public class Hero : Entity
     {
+    
         public Hero()
         {
             Attributes = new HashSet<HeroAttribute>();

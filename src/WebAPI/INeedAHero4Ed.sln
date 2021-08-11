@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INeedAHero4Ed.Core", "INeed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INeedAHero4Ed.Infrastructure", "INeedAHero4Ed.Infrastructure\INeedAHero4Ed.Infrastructure.csproj", "{89C98FBD-58B6-4369-B12E-684AF4BD16A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INeedAHero4Ed.Core.Tests", "Tests\INeedAHero4Ed.Core.Tests\INeedAHero4Ed.Core.Tests.csproj", "{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A6EBA6A2-154B-4B2F-968F-34DF45318F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{89C98FBD-58B6-4369-B12E-684AF4BD16A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C98FBD-58B6-4369-B12E-684AF4BD16A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C98FBD-58B6-4369-B12E-684AF4BD16A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79E4A4B4-7BB1-4B18-BC26-8C68E4175C7A} = {A6EBA6A2-154B-4B2F-968F-34DF45318F25}
 	EndGlobalSection
 EndGlobal
